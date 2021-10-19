@@ -1,0 +1,40 @@
+button{
+	width:190px;
+	border: 1px white solid;
+	border-radius: 0.5px;
+	padding: 11px;
+	background-color: transparent;
+	transition: 0.5s;
+	font-size: 15px;
+}
+button:hover{
+	background-color: #4575D4;
+}	
+img{
+	width: 90px;
+	float: left;
+}
+.money{
+	font-size: 50px;
+	margin-top: 15px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.koin{
+	vertical-align: middle;
+	width: 25%;
+	position: relative;
+	top: -100px;
+	left: 50px;
+}
+.game, .koin{
+	display: inline-block;
+}
+.game{
+	width: 70%;
+	text-align: center;
+	margin-top: 100px;
+}
+body{
+	background-image: url(img/1.jpg);
+}
